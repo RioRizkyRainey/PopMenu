@@ -131,7 +131,7 @@ public class PopMenuDefaultAction: NSObject, PopMenuAction {
     // MARK: - Subviews
     
     /// Title label view instance.
-    private lazy var titleLabel: UILabel = {
+    public lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.isUserInteractionEnabled = false
